@@ -116,7 +116,7 @@ gap: 50px
   color: var(--color-active-link);
 }
 
-.nav-list .link.current {
+.nav-list .current {
   color: var(--color-active-link);
 }
 
@@ -342,12 +342,9 @@ border-radius: 0px 0px 4px 4px;
    border-bottom: 1px solid #ECECEC;
 }
 .main-portfolio {
-  background: var(--color-background-main-portfolio);
+  background: var(--color-background-white);
 }
-.portfolio-container {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-}
 .filters-list {
   display: flex;
   flex-direction: row;
@@ -373,7 +370,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--color-nav-text);
 
   background: var(--color-background-filters-button);
-  border-radius: 4px;
+  border-radius: 4px ;
   cursor: pointer;
 }
 
