@@ -53,7 +53,6 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
   margin: 0 auto;
 
 }
@@ -76,9 +75,6 @@ body {
 }
 .logo-text {
   color: #2196f3;
-}
-.nav {
-
 }
 
 .nav-list {
@@ -295,10 +291,6 @@ border-radius: 0px 0px 4px 4px;
   padding-bottom: 60px;
 }
 
-.address-container {
-  gap: 20px;
-}
-
 .logo-footer {
   display: inline-block;
   margin: 0;
@@ -346,11 +338,28 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* -----------------------portfolio------------------- */
-
+.portfolio-header {
+   border-bottom: 1px solid #ECECEC;
+}
 .main-portfolio {
   background: var(--color-background-main-portfolio);
 }
+.portfolio-container {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.filters-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+  gap: 8px;
+}
 .filters-button {
+  height: 38px;
+  padding: 6px 22px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -377,8 +386,23 @@ border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
 
+}
+ .projects-item {
+  width: calc((100% - 90) /4);
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+ }
 .projects-title {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+  padding-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -389,6 +413,8 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .projects-text {
+  padding-bottom: 20px;
+  padding-left: 24px;
   font-size: 16px;
   line-height: 1.87;
 
