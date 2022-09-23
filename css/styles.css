@@ -54,12 +54,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
 }
 
 .container-header {
   display: flex;
-  
 }
 .logo {
   margin-top: 24px;
@@ -81,7 +79,7 @@ body {
   display: flex;
   align-items: center;
   margin: 32px 0;
-  gap: 50px
+  gap: 50px;
 }
 .nav-link {
   font-weight: 500;
@@ -92,12 +90,10 @@ body {
   color: var(--color-nav-text);
 }
 .contacts.list {
-display:flex;
-align-items: center;
-margin-left: auto;
-gap: 50px
-;
-
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 50px;
 }
 
 .contacts-link {
@@ -125,15 +121,13 @@ gap: 50px
 .hero {
   text-align: center;
   background: #2f303a;
-  
 }
 
-.hero-container{
+.hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
- 
 }
 
 .hero-title {
@@ -143,7 +137,7 @@ gap: 50px
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
- 
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -223,8 +217,6 @@ gap: 50px
   justify-content: center;
   padding-bottom: 94px;
   gap: 30px;
-  
-
 }
 .team {
   background: #f5f4fa;
@@ -247,12 +239,12 @@ gap: 50px
   padding-bottom: 94px;
   display: flex;
   gap: 30px;
-  
 }
 
 .team-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 
   background-color: var(--color-background-white);
 }
@@ -307,7 +299,6 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .address-map {
-
   padding-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
@@ -339,7 +330,7 @@ border-radius: 0px 0px 4px 4px;
 
 /* -----------------------portfolio------------------- */
 .portfolio-header {
-   border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 .main-portfolio {
   background: var(--color-background-white);
@@ -370,7 +361,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--color-nav-text);
 
   background: var(--color-background-filters-button);
-  border-radius: 4px ;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -388,13 +379,12 @@ border-radius: 0px 0px 4px 4px;
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 94px;
-
 }
- .projects-item {
-  width: calc((100% - 90) /4);
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
- }
+.projects-item {
+  width: calc((100% - 60px) / 3);
+  background: var(--color-background-white);
+  border: 1px solid #eeeeee;
+}
 .projects-title {
   padding-top: 20px;
   padding-right: 24px;
