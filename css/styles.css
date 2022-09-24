@@ -153,10 +153,10 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
 }
 
 .hero-title {
+  margin-bottom: 30px;
   width: 696px;
   height: 120;
   font-weight: 900;
